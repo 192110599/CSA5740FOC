@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+int lower,upper,odd,even;
+printf("enter the lowerlimit:");
+scanf("%d",&lower);
+printf("enter the upperlimit:");
+scanf("%d",&upper);
+if (lower%2!=0){
+lower=lower+1;
+}
+if (upper%2!=0)
+{
+upper=upper-1;
+}
+even=(upper-lower)/2+1;
+odd=((upper-lower)+1)-even;
+printf("odd number :%d",odd);
+printf("even number :%d",even);
+return 0;}
+
+
