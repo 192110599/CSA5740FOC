@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+	float p,t,r;
+	printf("enter the p:");
+	scanf("%f",&p);
+	printf("enter the r:");
+	scanf("%f",&r);
+	printf("enter the t:");
+	scanf("%f",&t);
+	float SI =(p*r*t)/100;
+	printf("simpleintrest:%f\n",SI);
+	return 0;
+	
+}
